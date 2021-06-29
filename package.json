@@ -1,0 +1,23 @@
+{
+  "name": "koa-no-slash",
+  "version": "1.0.0",
+  "description": "Koa middleware removing trailing slash from paths.",
+  "license": "MIT",
+  "repository": "https://github.com/damianobarbati/koa-no-slash.git",
+  "author": "Damiano Barbati <damiano.barbati@gmail.com> (https://github.com/damianobarbati)",
+  "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14.15"
+  },
+  "scripts": {
+    "eslint": "eslint --ignore-path .gitignore",
+    "jest": "NODE_OPTIONS='--experimental-vm-modules' npx jest --no-cache --detectOpenHandles src/*.spec.js"
+  },
+  "devDependencies": {
+    "eslint-config-translated": "^1.0.18",
+    "jest": "^27.0.6",
+    "koa": "^2.13.1",
+    "supertest": "^6.1.3"
+  }
+}

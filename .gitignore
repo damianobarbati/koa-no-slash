@@ -1,0 +1,4 @@
+node_modules/
+.jest-run/
+.idea/
+.DS_Store
