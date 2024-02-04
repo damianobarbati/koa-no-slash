@@ -4,18 +4,18 @@ Koa middleware removing trailing slash from path.
 
 ## Requirements
 
-- nodejs v14+
+- nodejs v21+
 - add `type=module` in your package.json as middleware is exported as ESM
 
 ## Usage
 
 Install:
-```bash
+```sh
 yarn add koa-no-slash
 ```
 
 Usage:
-```javascript
+```js
 import http from 'http';
 import koa from 'koa';
 import noslash from 'koa-no-slash';
